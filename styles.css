@@ -10,9 +10,18 @@
     justify-content: center;
 }
 
-.colorArea {
-    width: 500px;
-    height: 300px;
+.container {
     margin-top: 100px;
-    background-color: black;
+}
+
+
+.buttonArea {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.choiceButton {
+    padding: 10px;
+
 }
