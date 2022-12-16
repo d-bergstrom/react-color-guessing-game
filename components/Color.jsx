@@ -21,11 +21,11 @@ const Color = () => {
 
   //State used for all color choices. Calls fillColorChoices to populate.
   const [colorChoices, setColorChoices] = useState(fillColorChoices);
-  console.log("Color Choices: ", colorChoices);
+  //console.log("Color Choices: ", colorChoices);
 
   //Pick a random color from the colorChoices state as the answer
   const answer = colorChoices[Math.floor(Math.random() * 3)];
-  console.log("Answer: ", answer);
+  //console.log("Answer: ", answer);
 
   //Object used for inline styling display of the color area using the chosen answer.
   const colorArea = {
